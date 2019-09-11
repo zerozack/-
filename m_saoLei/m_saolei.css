@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+#main{
+    width:300px;
+    height:450px;
+    background: #eee;
+    margin:10px auto;
+    padding:10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+h1{
+    font-size:25px;
+    border:2px solid #aaa;
+    margin-bottom:5px;
+    text-align:center;
+    line-height:25px;
+
+}
+
+#operation{
+    position:relative;
+    margin:10px;
+}
+
+#change{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    
+}
+
+#start{
+    position: absolute;
+    left:50%;
+    height:30px;
+    transform:translateX(-50%);
+    border-radius: 5px;
+}
+
+.flag{
+    background: url("images/flag.png")no-repeat center;
+    background-size:cover;
+}
+
+.Mine{
+    background: url("images/mine.png")no-repeat center;
+    background-size:cover;
+}
+.dig{
+    background: url("images/dig.png")no-repeat center;
+    background-size:cover;
+}
+
+#tip{
+    margin:10px;
+}
+
+table{
+    width:270px; 
+    height:270px;
+    background: #ccc;
+    margin:0 auto;
+}
+
+td{
+    border:2px outset #eee;
+    font-size:15px;
+    width:25px;
+    height:25px;
+    box-sizing: border-box;
+    text-align:center;
+  
+}
+
+.up{
+    background-color:#aaa;
+    
+}
+
+.win{
+    background: url("images/win.jpg")no-repeat center;
+    background-size:cover;
+}
+.lose{
+    background: url("images/lose.jpg")no-repeat center;
+    background-size:cover;
+}
+.look{
+    background: url("images/look.png")no-repeat center;
+    background-size:cover;
+}
+
+#image{
+    width:80px;
+    height:80px;
+    position: absolute;
+    right:10px;
+    top:50px;
+}
